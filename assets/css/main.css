@@ -1,4 +1,4 @@
-html, body, *{
+html, body, * {
     margin: 0;
     padding: 0;
 }
@@ -20,40 +20,47 @@ html, body, *{
 *:first-child + html .clearfix {
     zoom: 1;
 }
+
 @font-face {
     font-family: OpenSans;
     src: url(../font/open-sans.regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: Belinda;
     src: url(../font/belinda.otf);
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: Ubuntu;
     src: url(../font/Ubuntu-Bold.ttf);
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: PTSansB;
     src: url(../font/PT_Sans-Web-Bold.ttf);
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: PTSansR;
     src: url(../font/PT_Sans-Web-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
+
 .container {
     width: 590px;
     margin: 0 auto;
 }
+
 .section-one {
     background-image: url("../img/back_1.png");
     width: 100%;
@@ -63,7 +70,8 @@ html, body, *{
     position: relative;
     background-attachment: fixed;
 }
-.logo{
+
+.logo {
     font-family: Belinda;
     font-size: 52px;
     text-align: center;
@@ -71,35 +79,36 @@ html, body, *{
     margin: 0 auto;
     padding: 90px 0 0 0;
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: space-between;
     width: 325px;
     margin: 0 auto;
     margin-top: 45px;
-
-
 }
-.menu a {
 
+.menu a {
     font-family: OpenSans;
     font-size: 13px;
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     opacity: 1;
-
 }
+
 .menu a:hover {
     opacity: 0.6;
 }
-.section-one .title{
+
+.section-one .title {
     font-family: Ubuntu;
     font-size: 53px;
     text-align: center;
     color: #ffffff;
     margin: 80px 0 0 0;
 }
+
 .section-one .sub-title {
     display: flex;
     justify-content: space-between;
@@ -108,22 +117,21 @@ html, body, *{
     align-items: center;
 }
 
-.section-one .tagline{
+.section-one .tagline {
     width: 23%;
     font-family: PTSansB;
     font-size: 15px;
     text-align: center;
     color: #ffffff;
-
-
 }
-.section-one .line{
+
+.section-one .line {
     border-bottom: 2px solid #ffffff;
     width: 13.5%;
     opacity: 0.24;
-
 }
-.section-one .button{
+
+.section-one .button {
     font-family: PTSans;
     font-size: 15px;
     text-align: center;
@@ -137,29 +145,33 @@ html, body, *{
     text-decoration: none;
     opacity: 1;
 }
+
 .section-one .button:hover {
-     opacity: 0.6;
- }
-.section-two{
+    opacity: 0.6;
+}
+
+.section-two {
     background-color: #eaeaeb;
 }
-.section-two .container{
+
+.section-two .container {
     display: flex;
     justify-content: space-between;
     background-color: #eaeaeb;
 }
-.section-two .column{
+
+.section-two .column {
     text-align: center;
     width: 20%;
 }
+
 .section-two .col-title {
     font-size: 16px;
     color: #40474e;
     font-family: PTSansB;
     margin-top: 38px;
-    border-bottom: 2px solid rgba(41,49,57,0.06);
+    border-bottom: 2px solid rgba(41, 49, 57, 0.06);
     padding-bottom: 20px;
-
 }
 
 .section-two .col-tagline {
@@ -169,60 +181,55 @@ html, body, *{
     font-family: PTSansR;
     margin-top: 25px;
 }
+
 .section-two {
     padding: 100px 0;
 }
 
-.section-three{
+.section-three {
     background-color: #f5f5f5;
     padding-top: 65px;
     padding-bottom: 77px;
 }
+
 .section-three .container {
     display: flex;
     justify-content: space-between;
 }
 
-
-
-
-.section-three .column img{
+.section-three .column img {
     width: 264px;
     height: 167px;
-
 }
 
-.section-three .column{
+.section-three .column {
     width: 264px;
-
 }
 
-.section-three .col-title{
-
+.section-three .col-title {
     font-family: PTSansB;
     font-size: 18px;
     color: #40474e;
     margin-top: 42px;
     text-transform: uppercase;
-
 }
-.section-three .hr{
+
+.section-three .hr {
     width: 290px;
     height: 2px;
     opacity: 0.06;
     background-color: #293139;
     margin-bottom: 31px;
     margin-top: 23px;
-
 }
 
-.section-three .col-tagline{
+.section-three .col-tagline {
     font-family: PTSans;
     font-size: 14px;
     color: #787b80;
-
 }
-.section-three button{
+
+.section-three button {
     width: 98px;
     height: 35px;
     background-color: #50c3af;
@@ -234,38 +241,37 @@ html, body, *{
     color: #f5f5f5;
     margin-top: 34px;
 }
-.section-four{
+
+.section-four {
     padding-top: 69px;
     padding-bottom: 64px;
 }
-.section-four .title{
+
+.section-four .title {
     font-family: PTSans;
     font-size: 18px;
     color: #384048;
     padding-left: 38px;
     position: relative;
-
-
 }
-.section-four img{
+
+.section-four img {
     width: 25px;
     height: 25px;
     opacity: 0.6;
     position: absolute;
     left: 0;
     top: 0;
-
 }
 
-.section-four .sub-title{
+.section-four .sub-title {
     font-family: PTSansR;
     font-size: 14px;
     color: #787b80;
     margin-top: 51px;
-
 }
 
-.section-four button{
+.section-four button {
     width: 98px;
     height: 35px;
     background-color: #d2d5da;
@@ -278,44 +284,43 @@ html, body, *{
     margin-top: 38px;
 }
 
-
-.section-five{
+.section-five {
     padding-top: 58px;
     padding-bottom: 70px;
     background-color: #f5f5f5;
 }
 
-.section-five .container{
+.section-five .container {
     display: flex;
     justify-content: space-between;
 }
 
-.section-five .column img{
+.section-five .column img {
     width: 181px;
     height: 138px;
 }
 
-.section-five .column{
+.section-five .column {
     width: 181px;
 }
 
-.section-five .col-title{
+.section-five .col-title {
     font-family: PTSansB;
     font-size: 16px;
     color: #40474e;
     margin-top: 41px;
-
 }
-.section-five .hr{
+
+.section-five .hr {
     width: 182px;
     height: 2px;
     opacity: 0.06;
     background-color: #293139;
     margin-bottom: 26px;
     margin-top: 18px;
-
 }
-.section-five .col-tagline{
+
+.section-five .col-tagline {
     font-family: PTSansR;
     font-size: 14px;
     color: #787b80;
@@ -323,7 +328,7 @@ html, body, *{
     margin-bottom: 28px;
 }
 
-.section-five a{
+.section-five a {
     font-family: PTSansR;
     font-size: 14px;
     color: #50c3af;
@@ -331,19 +336,18 @@ html, body, *{
     text-decoration: none;
 }
 
-.section-six{
+.section-six {
     padding-top: 66px;
     padding-bottom: 61px;
     background-color: #eaeaeb;
-
 }
 
-.section-six .container{
+.section-six .container {
     display: flex;
     justify-content: space-between;
 }
 
-.section-six button{
+.section-six button {
     width: 98px;
     height: 35px;
     background-color: #50c3af;
@@ -363,56 +367,57 @@ html, body, *{
     position: relative;
     left: 0;
     top: 0;
+    vertical-align: middle;
 }
 
-.section-six .line{
+.section-six .line {
     margin-left: 14px;
     font-family: PTSansB;
     font-size: 18px;
     color: #40474e;
     margin-bottom: 5px;
-
+    vertical-align: middle;
 }
 
-.section-six .hr{
+.section-six .hr {
     width: 251px;
     height: 2px;
     opacity: 0.06;
     background-color: #293139;
     margin-bottom: 28px;
     margin-top: 19px;
-
 }
 
-.section-six .col-tagline{
+.section-six .col-tagline {
     font-family: PTSansR;
     font-size: 14px;
     color: #787b80;
 }
-.section-seven .container{
+
+.section-seven .container {
     display: flex;
     justify-content: space-between;
 }
-.section-seven{
+
+.section-seven {
     padding-top: 61px;
     padding-bottom: 62px;
     background-color: #f5f5f5;
-
 }
 
-.section-seven img{
+.section-seven img {
     width: 264px;
     height: 208px;
 }
 
-.section-seven .title{
+.section-seven .title {
     font-family: PTSansB;
     font-size: 18px;
     color: #40474e;
     margin-left: 34px;
 }
 
-.section-seven .hr{
+.section-seven .hr {
     width: 290px;
     height: 2px;
     opacity: 0.06;
@@ -420,19 +425,17 @@ html, body, *{
     margin-top: 23px;
     margin-left: 34px;
     margin-bottom: 31px;
-
 }
 
-.section-seven .sub-title{
+.section-seven .sub-title {
     font-family: PTSansR;
     font-size: 14px;
     color: #787b80;
     margin-left: 34px;
     margin-bottom: 29px;
-
 }
 
-.section-seven button{
+.section-seven button {
     width: 98px;
     height: 35px;
     background-color: #d2d5da;
@@ -445,21 +448,69 @@ html, body, *{
     margin-left: 34px;
 }
 
+.section-eight {
+    padding-top: 53px;
+    padding-bottom: 73px;
+    background-color: #50c3af;
+}
 
+.section-eight .title img {
+    width: 24px;
+    height: 22px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
 
+.section-eight .title span {
+    width: 230px;
+    height: 11px;
+    font-family: PTSansB;
+    color: #ffffff;
+    vertical-align: middle;
+}
 
+.section-eight .hr {
+    width: 287px;
+    height: 2px;
+    opacity: 0.1;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+}
 
+.adv {
+    display: flex;
+    justify-content: space-between;
+}
 
+.adv img {
+    width: 117px;
+    height: 23px;
+    padding-top: 40px;
+}
 
+.section-eight .title {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 22px;
+    vertical-align: middle;
+}
 
+.footer{
+    background-color: #f5f5f5;
+    padding-top: 24px;
+    padding-bottom: 61px;
+}
+.footer .copyright{
+    float: left;
+    font-family: PTSansR;
+    font-size: 13px;
+    color: #aaacaf;
+}
 
-
-
-
-
-
-
-
-
-
-
+.social-icon{
+    float: right;
+    width: 18px;
+    height: 17px;
+    margin-left: 15px;
+    margin-top: 2px;
+}
